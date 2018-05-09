@@ -1,0 +1,90 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/UI">
+        <ListPreference
+            android:title="@string/pref_title_grid_catalog"
+            android:entries="@array/pref_list_grid_catalog"
+            android:entryValues="@array/pref_values_grid_catalog"
+            android:summary="@string/pref_desc_grid_catalog"
+            android:key="grid_catalog"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null" />
+        <MultiSelectListPreference
+            android:title="@string/pref_title_catalog_ui"
+            android:entries="@array/pref_list_catalog_ui"
+            android:entryValues="@array/pref_values_catalog_ui"
+            android:defaultValue="@array/pref_default_catalog_ui"
+            android:key="catalog_ui"/>
+        <ListPreference
+            android:title="@string/pref_thumbs_count"
+            android:entries="@array/pref_thumbs_count"
+            android:entryValues="@array/pref_thumbs_count"
+            android:key="thumbs_count"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="fullscreen"
+            android:title="@string/pref_title_fullscreen" />
+       <!--<ListPreference-->
+            <!--android:title="@string/pref_title_text_size_main"-->
+            <!--android:entries="@array/pref_list_text_size"-->
+            <!--android:entryValues="@array/pref_list_text_size"-->
+            <!--android:summary="@string/pref_desc_text_size"-->
+            <!--android:key="text_size_main"-->
+            <!--android:defaultValue="13"-->
+            <!--android:negativeButtonText="@null"-->
+            <!--android:positiveButtonText="@null" />-->
+        <!--<ListPreference-->
+            <!--android:title="@string/pref_title_text_size_detail"-->
+            <!--android:entries="@array/pref_list_text_size"-->
+            <!--android:entryValues="@array/pref_list_text_size"-->
+            <!--android:summary="@string/pref_desc_text_size"-->
+            <!--android:key="text_size_detail"-->
+            <!--android:defaultValue="13"-->
+            <!--android:negativeButtonText="@null"-->
+            <!--android:positiveButtonText="@null" />-->
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/DB">
+        <MultiSelectListPreference
+            android:title="@string/pref_title_base_catalog"
+            android:entries="@array/pref_list_base_catalog"
+            android:defaultValue="@array/pref_list_base_catalog"
+            android:entryValues="@array/pref_list_base_catalog"
+            android:summary="@string/pref_desc_base_catalog"
+            android:key="catalog_list"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/CACHE">
+        <Preference
+            android:key="clear_cache"
+            android:title="@string/CACHE_CLEAR"
+            android:summary="..."/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/OTHER">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="auto_update"
+            android:summary="@string/pref_desc_auto_update"
+            android:title="@string/pref_title_auto_update" />
+        <ListPreference
+            android:title="@string/pref_title_start_category"
+            android:entries="@array/pref_list_base_catalog"
+            android:entryValues="@array/pref_list_base_catalog"
+            android:summary="@string/pref_desc_start_category"
+            android:key="start_category"
+            android:defaultValue="nhentai"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="exit"
+            android:title="@string/pref_title_exit" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

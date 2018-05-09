@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="dev.tiar.mangacat.ui.ImgActivity">
+    <item
+        android:id="@+id/action_realod"
+        android:icon="@drawable/ic_menu_refresh"
+        android:title="@string/REFRESH"
+        app:showAsAction="always" />
+</menu>

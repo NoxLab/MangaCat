@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="dev.tiar.mangacat.ui.DetailActivity">
+    <item
+        android:id="@+id/action_d_down"
+        android:icon="@drawable/ic_menu_down_false"
+        android:title="@string/nav_downloads"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_d_fav"
+        android:icon="@drawable/ic_menu_fav_false"
+        android:title="@string/nav_favorites"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_realod"
+        android:icon="@drawable/ic_menu_refresh"
+        android:title="@string/REFRESH"
+        app:showAsAction="always" />
+</menu>

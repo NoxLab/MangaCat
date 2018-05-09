@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group>
+        <item android:title="@string/nav">
+            <menu>
+                <item
+                    android:id="@+id/nav_nhentai"
+                    android:icon="@drawable/logo_nh"
+                    android:title="NHentai" />
+                <item
+                    android:id="@+id/nav_hentaichan"
+                    android:icon="@drawable/logo_hchan"
+                    android:title="Hentai Chan" />
+                <item
+                    android:id="@+id/nav_nudemoon"
+                    android:icon="@drawable/logo_nudemoon"
+                    android:title="Nude Moon" />
+            </menu>
+        </item>
+        <item
+            android:id="@+id/nav_favorite"
+            android:icon="@drawable/ic_menu_fav_false"
+            android:title="@string/nav_favorites" />
+        <item
+            android:enabled="false"
+            android:id="@+id/nav_download"
+            android:icon="@drawable/ic_menu_down_false"
+            android:title="@string/nav_downloads" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_menu_history"
+            android:title="@string/nav_history" />
+    </group>
+
+    <item android:title="@string/OTHER">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_menu_settings_white"
+                android:title="@string/title_activity_settings" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_menu_exit"
+                android:title="@string/EXIT" />
+        </menu>
+    </item>
+
+</menu>

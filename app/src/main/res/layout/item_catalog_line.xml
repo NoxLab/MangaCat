@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:cardCornerRadius="0dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:background="@color/colorPrimaryDark">
+
+        <LinearLayout
+            android:id="@+id/l1"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img_post"
+                android:layout_width="160dp"
+                android:layout_height="205dp"
+                android:scaleType="fitCenter" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="142dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/title_post"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="42dp"
+                    android:maxLines="8"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:gravity="center_vertical"
+                    android:ellipsize="end"
+                    android:textSize="15sp"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/tags_post"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingRight="2dp"
+                    android:paddingLeft="3dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorDarkWhite" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/l_lang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/l1"
+            android:paddingLeft="160dp"
+            android:gravity="bottom|right"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/lang_post"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:background="@color/colorAccentDark"
+                android:gravity="center"
+                android:lines="1"
+                android:paddingLeft="3dp"
+                android:paddingRight="2dp"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/count_post"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@color/colorDarkGreen"
+                android:paddingRight="3dp"
+                android:paddingLeft="2dp"
+                android:lines="1"
+                android:textColor="@color/colorDarkWhite" />
+        </LinearLayout>
+        </RelativeLayout>
+        <include layout="@layout/selected" />
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

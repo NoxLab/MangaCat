@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="1dp"
+        android:bottomRightRadius="0dp" android:bottomLeftRadius="550dp"
+        android:topLeftRadius="550dp" android:topRightRadius="0dp"/>  // here you have to put dimen as per reqiurement
+
+    <solid android:color="@color/colorGreyGone" />
+</shape>

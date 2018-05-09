@@ -1,0 +1,35 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/GENERAL">
+        <Preference
+            android:key="pref_static_field_key"
+            android:selectable="false"
+            android:persistent="false"
+            android:title="@string/app_name"
+            android:summary="@string/app_version"/>
+        <Preference
+            android:key="update"
+            android:title="@string/CHECK_UPDATE"/>
+        <Preference
+            android:key="email"
+            android:title="@string/FEEDBACK"
+            android:summary="@string/app_email"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/DONATE">
+        <Preference
+            android:key="wmr"
+            android:title="R353353790048"
+            android:summary="webmoney рубли"/>
+        <Preference
+            android:key="wmu"
+            android:title="U787643357009"
+            android:summary="webmoney гривны"/>
+        <Preference
+            android:key="wmz"
+            android:title="Z337989915257"
+            android:summary="webmoney доллары"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_version">"Version: 0.1 "</string>
+    <string name="NO_CONNECT">Error connecting internet ...</string>
+    <!-- Strings constants -->
+    <string name = "REFRESH">Refresh</string>
+    <string name = "CANCEL">Undo</string>
+    <string name = "ADDED">Added</string>
+    <string name = "REMOVE">Removed</string>
+    <string name = "TO_REMOVE">Delete?</string>
+    <string name = "NOT_READY">Not ready</string>
+    <string name = "YES">Yes</string>
+    <string name = "START_DOWNLOAD">Download started</string>
+    <string name = "PRESS_TO_EXIT">Press back to exit</string>
+    <string name = "EXIT">Exit</string>
+    <string name = "SELECT">Select</string>
+    <string name = "LANG">Language</string>
+    <string name = "PAGES">Pages</string>
+    <string name = "PGS"> pgs</string>
+
+    <!-- Strings in menu -->
+    <string name = "nav">Navigation</string>
+    <string name = "nav_favorites">Favorites</string>
+    <string name = "nav_downloads">Saved</string>
+    <string name = "nav_history">History</string>
+    <string name = "nav_search">Search</string>
+
+    <!-- Strings in layouts -->
+    <string name = "layout_series">Series</string>
+    <string name = "layout_characters">Characters</string>
+    <string name = "layout_artist">Author</string>
+    <string name = "layout_group">Group</string>
+    <string name = "layout_tags">Tags</string>
+    <string name="layout_read">Read</string>
+    <!-- Strings related to Settings -->
+    <string name = "title_activity_settings">Settings</string>
+    <string name = "pref_header_info">Information</string>
+    <string name = "pref_header_settings">Settings</string>
+    <string name = "CACHE">Cache</string>
+    <string name = "CACHE_CLEAR">Clear the cache</string>
+    <string name = "DB">Databases</string>
+    <string name = "OTHER">Other</string>
+    <string name = "UI">Interface</string>
+    <string name = "GENERAL">General</string>
+    <string name = "CHECK_UPDATE">Check for Update</string>
+    <string name = "FEEDBACK">Feedback</string>
+    <string name = "DONATE">Application Support</string>
+
+    <string name = "pref_title_grid_catalog">Type of manga display</string>
+    <string name = "pref_desc_grid_catalog">List / Grid</string>
+    <string-array name = "pref_list_grid_catalog">
+        <item>List</item>
+        <item>Grid</item>
+    </string-array>
+    <string name = "pref_title_catalog_ui">Selecting what is displayed in the catalog.</string>
+    <string-array name = "pref_list_catalog_ui">
+        <item>Poster</item>
+        <item>Name</item>
+        <item>Language</item>
+        <item>Number of pages</item>
+        <item>Tags</item>
+    </string-array>
+    <string name = "pref_thumbs_count">Number of displayed thumbnails</string>
+    <string name = "pref_title_base_catalog">Catalog</string>
+    <string name = "pref_desc_base_catalog">Used manga catalog.</string>
+    <string name = "pref_title_start_category"> Start catalog</string>
+    <string name = "pref_desc_start_category"> Select the catalog that will be launched when the application starts. </string>
+    <string name = "pref_title_auto_update"> Check for updates </string>
+    <string name = "pref_desc_auto_update"> Check for updates when the application starts. </string>
+    <string name = "pref_title_exit"> Exit button </string>
+    <string name="RETRY">Retry</string>
+</resources>

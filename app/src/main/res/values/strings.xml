@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name" translatable="false">Manga Cat</string>
+    <string name="app_version">Версия: 0.1</string>
+    <string name="app_email" translatable="false">tiarait.dev@gmail.com</string>
+
+    <!-- Strings constants -->
+    <string name="REFRESH">Обновить</string>
+    <string name="CANCEL">Отменить</string>
+    <string name="ADDED">Добавленно</string>
+    <string name="REMOVE">Удалено</string>
+    <string name="TO_REMOVE">Удалить?</string>
+    <string name="NOT_READY">Не готово</string>
+    <string name="YES">Да</string>
+    <string name="START_DOWNLOAD">Загрузка начата</string>
+    <string name="PRESS_TO_EXIT">Нажмите назад для выхода</string>
+    <string name="EXIT">Выйти</string>
+    <string name="SELECT">Выберите</string>
+    <string name="LANG">Язык</string>
+    <string name="PAGES">Страниц</string>
+    <string name="PGS">стр.</string>
+
+    <!-- Strings in menu -->
+    <string name="nav">Навигация</string>
+    <string name="nav_favorites">Избранное</string>
+    <string name="nav_downloads">Сохраненные</string>
+    <string name="nav_history">История</string>
+    <string name="nav_search">Поиск</string>
+
+    <!-- Strings in layouts -->
+    <string name="layout_series">Серия</string>
+    <string name="layout_characters">Персонажи</string>
+    <string name="layout_artist">Автор</string>
+    <string name="layout_group">Группа</string>
+    <string name="layout_tags">Теги</string>
+    <string name="layout_read">Читать</string>
+
+    <!-- Strings related to Settings -->
+    <string name="title_activity_settings">Настройки</string>
+    <string name="pref_header_info">Информация</string>
+    <string name="pref_header_settings">Настройки</string>
+
+    <string name="CACHE">Кэш</string>
+    <string name="CACHE_CLEAR">Очистить кэш</string>
+    <string name="DB">Базы данных</string>
+    <string name="OTHER">Другое</string>
+    <string name="UI">Интерфейс</string>
+    <string name="GENERAL">Общее</string>
+    <string name="CHECK_UPDATE">Проверить обновление</string>
+    <string name="FEEDBACK">Обратная связь</string>
+    <string name="DONATE">Поддержка приложения</string>
+
+    <string name="pref_title_grid_catalog">Тип отображения манги</string>
+    <string name="pref_desc_grid_catalog">Список/Сетка</string>
+    <string-array name="pref_list_grid_catalog">
+        <item>Список</item>
+        <item>Сетка</item>
+    </string-array>
+    <string-array name="pref_values_grid_catalog">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string name="pref_title_catalog_ui">Выбор отображаемого в каталоге</string>
+    <string-array name="pref_list_catalog_ui">
+        <item>Постер</item>
+        <item>Название</item>
+        <item>Язык</item>
+        <item>Кол-во стр.</item>
+        <item>Теги</item>
+    </string-array>
+    <string-array name="pref_values_catalog_ui">
+        <item>img</item>
+        <item>title</item>
+        <item>lang</item>
+        <item>count</item>
+        <item>tags</item>
+    </string-array>
+    <string-array name="pref_default_catalog_ui">
+        <item>img</item>
+        <item>title</item>
+        <item>lang</item>
+    </string-array>
+
+    <string name="pref_title_base_catalog">Каталог</string>
+    <string name="pref_desc_base_catalog">Используемые каталоги манги.</string>
+    <string-array name="pref_list_base_catalog">
+        <item>NHentai</item>
+        <item>HentaiChan</item>
+        <item>NudeMoon</item>
+    </string-array>
+
+    <string name="pref_title_start_category">Стартовый каталог</string>
+    <string name="pref_desc_start_category">Выберите каталог с которого будет стартовать приложение.</string>
+
+    <string name="pref_title_text_size_detail" translatable="false">Размер текста в описании</string>
+    <string name="pref_title_text_size_main" translatable="false">Размер основного текста</string>
+    <string name="pref_desc_text_size" translatable="false">Установить размер текста.</string>
+    <string-array name="pref_list_text_size">
+        <item>10</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+    </string-array>
+
+    <string name="pref_thumbs_count">Кол-во отображаемых миниатюр</string>
+    <string-array name="pref_thumbs_count" translatable="false">
+        <item>0</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+        <item>999</item>
+    </string-array>
+
+    <string name="pref_title_auto_update">Проверка обновлений</string>
+    <string name="pref_desc_auto_update">Поверка обновлений при запуске приложения.</string>
+    <string name="pref_title_exit">Кнопка выхода</string>
+    <string name="pref_title_fullscreen" translatable="false">FullScreen mode</string>
+    <string name="NO_CONNECT">Ошибка интернет соединения…</string>
+    <string name="RETRY">Повторить</string>
+
+</resources>
