@@ -6,7 +6,10 @@
 
 ### What is implemented:
 * Lang ru, en;
-* Catalog NHentai(international), HentaiChan(ru), NudeMoon(ru);
+* Catalog:
+    * NHentai(international) 
+    * HentaiChan(ru) 
+    * NudeMoon(ru);
 * Add manga to favorite;
 
 ### In future:
